@@ -1,4 +1,4 @@
-﻿unit Unit1;
+unit Unit1;
 
 interface
 
@@ -26,7 +26,7 @@ implementation
 
 procedure TForm1.FormShow(Sender: TObject);
 begin
-  // Nek komentart na UTF8 BOM branchu
+  // Nek komentart na UTF8 BOM branchu lol
   lbl1.Caption := 'šđčćžŠĐČĆŽ';
   lbl2.Caption := 'šđčćžŠĐČĆŽ';
 end;

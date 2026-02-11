@@ -26,6 +26,7 @@ implementation
 
 procedure TForm1.FormShow(Sender: TObject);
 begin
+  // Nek komentart na UTF8 BOM branchu
   lbl1.Caption := 'šđčćžŠĐČĆŽ';
   lbl2.Caption := 'šđčćžŠĐČĆŽ';
 end;

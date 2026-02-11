@@ -1,4 +1,4 @@
-﻿unit Unit1;
+unit Unit1;
 
 interface
 
@@ -26,6 +26,7 @@ implementation
 
 procedure TForm1.FormShow(Sender: TObject);
 begin
+  // Neka sprememba na branchu UTF8
   lbl1.Caption := 'šđčćžŠĐČĆŽ';
   lbl2.Caption := 'šđčćžŠĐČĆŽ';
 end;
